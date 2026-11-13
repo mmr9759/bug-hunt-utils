@@ -1,0 +1,10 @@
+[VERIFIED BUG] factorial(5) => utils.js: 24 | expected (benar): 120 | referensi independen: 120
+[VERIFIED BUG] factorial(2) => utils.js: 1 | expected (benar): 2 | referensi independen: 2
+[VERIFIED BUG] factorial(10) => utils.js: 362880 | expected (benar): 3628800 | referensi independen: 3628800
+[VERIFIED BUG] countVowels("AEIOU") => utils.js: 0 | expected (benar): 5 | referensi independen: 5
+[VERIFIED BUG] countVowels("AeIoU") => utils.js: 2 | expected (benar): 5 | referensi independen: 5
+[VERIFIED BUG] countVowels("HELLO") => utils.js: 0 | expected (benar): 2 | referensi independen: 2
+[VERIFIED BUG] reverse("a😀b") => utils.js: "b\ude00\ud83da" | expected (benar): "b😀a" | referensi independen: "b😀a"
+[VERIFIED BUG] isPalindrome("😀a😀") => utils.js: false | expected (benar): true | referensi independen: true
+
+Ringkasan: 8 bug terverifikasi dari 8 laporan, 0 gagal.
